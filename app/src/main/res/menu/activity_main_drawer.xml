@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/task"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Заказы" />
+        <item
+            android:id="@+id/my_task"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Мои заказы" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Выход" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
